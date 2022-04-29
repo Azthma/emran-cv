@@ -14,21 +14,25 @@
                         <h3 class="font-weight-bold font-color">SOFT SKILLS</h3>
                     </v-chip>
                 </v-layout>
-                <v-list class="grey darken-4">
+                <v-list class="grey darken-4" dense>
                     <v-list-item
                         v-for="(soft_skills, i) in soft_skills"
                         :key="i"
                     >
                         <v-list-item-icon class="mr-3">
-                        <v-icon
-                            color="green"
-                        >
-                            mdi-check
-                        </v-icon>
+                            <v-icon
+                                color="green"
+                            >
+                                mdi-check
+                            </v-icon>
                         </v-list-item-icon>
-
                         <v-list-item-content>
-                        <v-list-item-title class="font-color" v-text="soft_skills.name"></v-list-item-title>
+                            <v-list-item-title class="font-color">
+                                <span
+                                    class="overline font-overline"
+                                    v-text="soft_skills.name"
+                                ></span>
+                            </v-list-item-title>
                         </v-list-item-content>
                     </v-list-item>
                 </v-list>
@@ -48,37 +52,51 @@
                         <h3 class="font-weight-bold font-color">HARD SKILLS</h3>
                     </v-chip>
                 </v-layout>
-                <v-list class="grey darken-4">
+                <v-list class="grey darken-4" dense>
                     <v-list-item
                         v-for="(hard_skills, i) in hard_skills"
                         :key="i"
                     >
                         <v-list-item-icon class="mr-3">
-                        <v-icon
-                            color="green"
-                        >
-                            mdi-check
-                        </v-icon>
+                            <v-icon
+                                color="green"
+                            >
+                                mdi-check
+                            </v-icon>
                         </v-list-item-icon>
 
                         <v-list-item-content class="pb-0">
-                            <v-list-item-title v-if="hard_skills.skills" class="font-color mt-2" v-text="hard_skills.name"></v-list-item-title>
-                            <v-list-item-title v-else class="font-color" v-text="hard_skills.name"></v-list-item-title>
-                            <v-list v-if="hard_skills.skills" class="grey darken-4 mb-0 pb-0">
+                            <v-list-item-title v-if="hard_skills.skills" class="font-color">
+                                <span
+                                    class="overline font-overline"
+                                    v-text="hard_skills.name"
+                                ></span>
+                            </v-list-item-title>
+                            <v-list-item-title v-else class="font-color">
+                                <span
+                                    class="overline font-overline"
+                                    v-text="hard_skills.name"
+                                ></span>
+                            </v-list-item-title>
+                            <v-list v-if="hard_skills.skills" class="grey darken-4 py-0" dense>
                                 <v-list-item
                                     v-for="(skill, i) in hard_skills.skills"
                                     :key="i"
                                 >
                                     <v-list-item-icon class="mr-3">
-                                    <v-icon
-                                        color="green"
-                                    >
-                                        mdi-check
-                                    </v-icon>
+                                        <v-icon
+                                            color="green"
+                                        >
+                                            mdi-check
+                                        </v-icon>
                                     </v-list-item-icon>
-
                                     <v-list-item-content>
-                                        <v-list-item-title class="font-color" v-text="skill.name"></v-list-item-title>
+                                        <v-list-item-title class="font-color">
+                                            <span
+                                                class="overline font-overline"
+                                                v-text="skill.name"
+                                            ></span>
+                                        </v-list-item-title>
                                     </v-list-item-content>
                                 </v-list-item>
                             </v-list>

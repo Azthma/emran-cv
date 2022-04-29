@@ -34,16 +34,16 @@
                 >
                     <v-tabs-slider></v-tabs-slider>
                     <v-tab href="#about">
-                        ABOUT
+                        <v-icon>mdi-account</v-icon>
                     </v-tab>
                     <v-tab href="#background">
-                        BACKGROUND
+                        <v-icon>mdi-draw-pen</v-icon>
                     </v-tab>
                     <v-tab href="#skills">
-                        SKILLS
+                        <v-icon>mdi-briefcase</v-icon>
                     </v-tab>
                     <v-tab href="#contact">
-                        CONTACT
+                        <v-icon>mdi-phone</v-icon>
                     </v-tab>
                 </v-tabs>
                 <v-tabs-items v-model="tab">

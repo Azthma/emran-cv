@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="grey darken-4 pb-2 pt-16">
+        <div class="grey darken-4 pb-3 pt-16">
             <h1 class="font-color font-weight-light text-center">About Me</h1>
         </div>
         <v-col class="d-flex justify-center pa-lg-0 card-col" >
@@ -17,10 +17,10 @@
         <div class="grey darken-4 pb-2 pt-16">
             <h1 class="font-color font-weight-light text-center">What I Do</h1>
         </div>
-        <v-row class="grey darken-4 ma-0 pr-lg-16 pl-lg-16">
+        <v-row class="grey darken-4 ma-0 px-0 px-lg-16">
             <v-col cols="12" md="6" class="d-flex justify-center justify-lg-end pr-lg-16 pt-5">
                 <v-card
-                    class="pa-3 grey darken-4"
+                    class="pa-1 grey darken-4"
                     width="400"
                     flat
                 >
@@ -37,7 +37,7 @@
             </v-col>
             <v-col cols="12" md="6" class="d-flex justify-center justify-lg-start pl-lg-16 pt-5">
                 <v-card
-                    class="pa-3 grey darken-4"
+                    class="pa-1 grey darken-4"
                     width="400"
                     flat
                 >
@@ -56,7 +56,7 @@
         <v-row class="grey darken-4 ma-0 pb-16 pr-lg-16 pl-lg-16">
             <v-col cols="12" md="6" class="d-flex justify-center justify-lg-end pr-lg-16 pt-5">
                 <v-card
-                    class="pa-3 grey darken-4"
+                    class="pa-1 grey darken-4"
                     width="400"
                     flat
                 >
@@ -72,7 +72,7 @@
             </v-col>
             <v-col cols="12" md="6" class="d-flex justify-center justify-lg-start pl-lg-16 pt-5">
                 <v-card
-                    class="pa-3 grey darken-4"
+                    class="pa-1 grey darken-4"
                     width="400"
                     flat
                 >

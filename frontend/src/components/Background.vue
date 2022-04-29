@@ -1,7 +1,7 @@
 <template>
     <div>
         <v-row class="grey darken-4 ma-0 pt-16 pb-16 pr-lg-12 pl-lg-12">
-            <v-col cols="12" md="6" class="d-flex justify-center justify-lg-start pr-lg-5 pt-5 pb-16 pb-lg-5">
+            <v-col cols="11" md="6" class="d-flex justify-lg-start pl-5 pl-lg-5 pt-5 pb-16">
                 <v-timeline align-top dense class="pt-0">
                     <v-timeline-item large class="d-flex align-center" color="#212121">
                         <template v-slot:icon>
@@ -9,11 +9,10 @@
                                 mdi-school
                             </v-icon>
                         </template>
-                        <div>
-                            <span class="headline font-weight-bold font-color" color="white">EDUCATION</span>
+                        <div class="white" style="margin-left: -50px">
+                            <span class="headline font-weight-bold ml-10">EDUCATION</span>
                         </div>
                     </v-timeline-item>
-                    <v-divider class="mb-5 ml-12" style="background: white"></v-divider>
                     <v-timeline-item
                         v-for="(education, i) in education"
                         :key="i"
@@ -38,7 +37,7 @@
                     </v-timeline-item>
                 </v-timeline>
             </v-col>
-            <v-col cols="12" md="6" class="d-flex justify-center justify-lg-start pl-lg-5 pt-16 pt-lg-5 pb-5">
+            <v-col cols="11" md="6" class="d-flex justify-center justify-lg-start pl-5 pl-lg-5 pt-16 pt-lg-5 pb-5">
                 <v-timeline align-top dense class="pt-0">
                     <v-timeline-item large class="d-flex align-center" color="#212121">
                         <template v-slot:icon>
@@ -46,11 +45,10 @@
                                 mdi-briefcase
                             </v-icon>
                         </template>
-                        <div>
-                            <span class="headline font-weight-bold font-color">EXPERIENCE</span>
+                        <div class="white" style="margin-left: -50px">
+                            <span class="headline font-weight-bold ml-10">EXPERIENCE</span>
                         </div>
                     </v-timeline-item>
-                    <v-divider class="mb-5 ml-12" style="background: white"></v-divider>
                     <v-timeline-item
                         v-for="(experience, i) in experience"
                         :key="i"
@@ -92,19 +90,20 @@
                     </v-row>
                     <v-col class="mt-9 pl-0">
                         <v-card
+                            class="grey lighten-2"
                             outlined
                         >
-                                    <v-list-item three-line>
-                                        <v-list-item-content>
-                                            <h2 class="text-h5">
-                                                Devfest Zamboanga Peninsula 2018: Machine Learning, Android, Cyber Security, Flutter, Google Cloud, Python and Emerging Tools
-                                            </h2>
-                                            <div class="text-overline">
-                                                Google Developers Group - December 4, 2018
-                                            </div>
-                                            <v-list-item-subtitle>Social Hall, College of Teacher Education, Western Mindanao State University</v-list-item-subtitle>
-                                        </v-list-item-content>
-                                    </v-list-item>
+                            <v-list-item three-line>
+                                <v-list-item-content>
+                                    <h2 class="text-h5">
+                                        Devfest Zamboanga Peninsula 2018: Machine Learning, Android, Cyber Security, Flutter, Google Cloud, Python and Emerging Tools
+                                    </h2>
+                                    <div class="text-overline">
+                                        Google Developers Group - December 4, 2018
+                                    </div>
+                                    <v-list-item-subtitle>Social Hall, College of Teacher Education, Western Mindanao State University</v-list-item-subtitle>
+                                </v-list-item-content>
+                            </v-list-item>
                         </v-card>
                     </v-col>
                 </v-col>

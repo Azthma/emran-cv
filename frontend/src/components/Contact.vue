@@ -6,48 +6,63 @@
         <v-row class="grey darken-4 ma-0 pr-lg-16 pl-lg-16">
             <v-col cols="12" md="6" class="d-flex justify-center justify-lg-end pr-lg-16 pt-5">
                 <v-card
-                    class="pa-3 grey darken-4"
+                    class="pa-1 grey darken-4"
                     width="400"
                     flat
                 >
                     <v-card-text class="text-center">
-                        <h2 class="font-color pa-0 pb-3">Contact Number</h2>
+                        <h2 class="font-color pa-0 pb-3"><v-icon class="font-color mr-2">mdi-phone</v-icon>Contact Number</h2>
                         <v-divider class="mb-3 test"></v-divider>
-                        <h2 class="font-color font-weight-light">
+                        <h3 class="font-color font-weight-light">
                             +639244466666
-                        </h2>
+                        </h3>
                     </v-card-text>
                 </v-card>
             </v-col>
             <v-col cols="12" md="6" class="d-flex justify-center justify-lg-start pl-lg-16 pt-5">
                 <v-card
-                    class="pa-3 grey darken-4"
+                    class="pa-1 grey darken-4"
                     width="400"
                     flat
                 >
                     <v-card-text class="text-center">
-                        <h2 class="font-color pa-0 pb-3">Email</h2>
+                        <h2 class="font-color pa-0 pb-3"><v-icon class="font-color mr-2">mdi-email</v-icon>Email</h2>
                         <v-divider class="mb-3 test"></v-divider>
-                        <h2 class="font-color font-weight-light">
+                        <h3 class="font-color font-weight-light">
                             emranpendaliday1010@gmail.com
-                        </h2>
+                        </h3>
                     </v-card-text>
                 </v-card>
             </v-col>
         </v-row>
-        <v-row class="grey darken-4 ma-0 pb-16 pr-lg-16 pl-lg-16">
-            <v-col cols="12" md="12" class="d-flex justify-center pt-5">
+        <v-row class="grey darken-4 ma-0 pr-lg-16 pl-lg-16 pb-16">
+            <v-col cols="12" md="6" class="d-flex justify-center justify-lg-end pr-lg-16 pt-5">
                 <v-card
-                    class="pa-3 grey darken-4"
-                    width="800"
+                    class="pa-1 grey darken-4"
+                    width="400"
                     flat
                 >
                     <v-card-text class="text-center">
-                        <h2 class="font-color pa-0 pb-3">Address</h2>
+                        <h2 class="font-color pa-0 pb-3"><v-icon class="font-color mr-2">mdi-map-marker</v-icon>Address</h2>
                         <v-divider class="mb-3 test"></v-divider>
-                        <h2 class="font-color font-weight-light px-2 text-div">
-                            Lawaan 1, Talisay city, Cebu, PhilippinesLawaan 1, Talisay city, Cebu, Philippines
-                        </h2>
+                        <h3 class="font-color font-weight-light px-2 text-div">
+                            Casa Mira South, Pitalo, San Fernando, Cebu, Philippines 6018
+                        </h3>
+                    </v-card-text>
+                </v-card>
+            </v-col>
+            <v-col cols="12" md="6" class="d-flex justify-center justify-lg-start pl-lg-16 pt-5">
+                <v-card
+                    class="pa-1 grey darken-4"
+                    width="400"
+                    flat
+                >
+                    <v-card-text class="text-center">
+                        <h2 class="font-color pa-0 pb-3"><v-icon class="font-color mr-2">mdi-web</v-icon>Social Media</h2>
+                        <v-divider class="mb-3 test mb-4"></v-divider>
+                        <v-icon class="font-color" large>mdi-facebook</v-icon>
+                        <v-icon class="font-color mx-2" large>mdi-discord</v-icon>
+                        <v-icon class="font-color" large>mdi-linkedin</v-icon>
                     </v-card-text>
                 </v-card>
             </v-col>
