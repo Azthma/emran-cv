@@ -209,7 +209,7 @@
             },
             {
                 name: "SQL",
-                value: 90
+                value: 95
             }
         ]
     }),

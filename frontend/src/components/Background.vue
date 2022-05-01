@@ -76,7 +76,7 @@
         </v-row>
         <v-divider></v-divider>
         <v-row class="grey darken-4 ma-0 pt-16 pb-16 pr-lg-12 pl-lg-12">
-            <v-col cols="12" md="6" class="d-flex justify-lg-start pl-5 pt-5 pb-16 pb-lg-5">
+            <v-col cols="12" md="6" class="d-flex justify-lg-start pl-5 pl-lg-5 pt-5 pb-16 pb-lg-5">
                 <v-col>
                     <v-row>
                         <v-avatar color="#212121" style="border: 4px solid white">

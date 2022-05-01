@@ -6,7 +6,7 @@
                     <v-avatar size="200">
                         <img 
                             style="object-fit: cover;"
-                            src="../assets/profile.png"
+                            src="../assets/profile.jpg"
                         >
                     </v-avatar>
                 </v-col>
